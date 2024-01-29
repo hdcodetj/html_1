@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(255, 255, 0, 0.13);
+    color: black;
+}
+
+h1 {
+    
+}
+/* 
+
+Aplicando estilos com CSS
+Agora, vamos um pouco além. Você precisa criar três arquivos CSS diferentes, cada um com um estilo único, para o mesmo arquivo HTML. Isso demonstrará como o CSS pode drasticamente mudar a aparência de uma página sem alterar o HTML. Crie estilos variados para os elementos da página - um arquivo com um estilo formal e elegante, outro com um estilo colorido e divertido, e um terceiro com um visual minimalista e limpo.
+
+
+*/
