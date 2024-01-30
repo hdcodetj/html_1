@@ -1,15 +1,50 @@
-body {
-    background-color: rgba(255, 255, 0, 0.13);
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
+body {
+    height: 100vh;
+    background-color: black;
+    color:aliceblue;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    box-sizing: border-box;
+    height: 100vh;
+    gap: 56px;;
+}
+
+.destaquetitulo {
+    color: blue;
+}
+
+.sectiontext {
+    font-family: "Honk", system-ui;
+}
+
+.partext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+}
+a { 
+    margin: 10px;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 65px;
+    text-decoration: none;
+}
+.butao__links{
+    border: 1px solid red
     
 }
-/* 
-
-Aplicando estilos com CSS
-Agora, vamos um pouco além. Você precisa criar três arquivos CSS diferentes, cada um com um estilo único, para o mesmo arquivo HTML. Isso demonstrará como o CSS pode drasticamente mudar a aparência de uma página sem alterar o HTML. Crie estilos variados para os elementos da página - um arquivo com um estilo formal e elegante, outro com um estilo colorido e divertido, e um terceiro com um visual minimalista e limpo.
-
-
-*/
